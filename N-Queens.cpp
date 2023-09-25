@@ -36,8 +36,7 @@ int main() {
 	int n;
     cout << "Enter a number of Queens: ";
     cin >> n;
-	for (int i = 1; i <= n; ++i)
-		cout << "There are " << nqueens(i) << " solutions to the " << i << " queens problem.\n";
+	cout << "There are " << nqueens(n) << " solutions to the " << n << " queens problem.\n";
 	system("pause");
 	return 0;
 }
