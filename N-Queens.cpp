@@ -34,8 +34,8 @@ int nqueens(int n) {
 
 int main() {
 	int n;
-    cout << "Enter a number of Queens: ";
-    cin >> n;
+	cout << "Enter a number of Queens: ";
+	cin >> n;
 	cout << "There are " << nqueens(n) << " solutions to the " << n << " queens problem.\n";
 	system("pause");
 	return 0;
